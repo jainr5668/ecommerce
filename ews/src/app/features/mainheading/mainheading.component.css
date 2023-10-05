@@ -1,0 +1,10 @@
+.heading{
+    background-color: lightblue;
+    height: 50px;
+}
+.toolbarButton{
+    padding-left: 5px;
+    padding-right: 10px;
+    color:black;
+    border: solid black 1px;
+}

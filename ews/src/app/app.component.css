@@ -1,0 +1,50 @@
+/* .header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 200px;
+  right: 0px;
+  overflow: hidden;
+}
+
+.content {
+  position: fixed; 
+  top: 100px;
+  bottom: 100px;
+  left: 0px;
+  right: 0px;
+  overflow: auto;
+}
+.footer {
+    background-color: skyblue;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  max-height: 100px;
+  padding: 10px;
+} */
+.bodyContainer {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  &__header {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  &__content {
+    /* background-color: yellow; */
+    max-height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+}
+.bodyfooter {
+  display: flex;
+  flex-direction: column;
+  background-color: skyblue;
+}

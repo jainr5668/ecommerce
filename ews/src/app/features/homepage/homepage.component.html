@@ -1,0 +1,5 @@
+<div class="row" *ngIf="menuData">
+  <div *ngFor="let productCard of menuData" class="col-2 py-2">
+    <pattern-productcard [productcard]="productCard" *ngIf="productCard"></pattern-productcard>
+  </div>
+</div>
